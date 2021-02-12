@@ -1,7 +1,8 @@
 {
-  "name": "news_app_react",
+  "name": "hacker_news",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://chengpham.github.io/hacker_news",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/user-event": "^12.6.0",
