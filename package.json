@@ -14,7 +14,7 @@
     "web-vitals": "^0.2.4"
   },
   "devDependencies": {
-    "@testing-library/react": "^11.2.3"
+    "gh-pages": "^3.1.0"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -44,6 +44,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "local": "CHOKIDAR_USEPOLLING=true react-scripts start"
   },
   "browserslist": {
